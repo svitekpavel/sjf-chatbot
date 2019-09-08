@@ -1,3 +1,7 @@
+# Overview
+
+A basic bootstrap project for a student week project.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
