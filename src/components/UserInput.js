@@ -17,7 +17,7 @@ export default function UserInput({ onSubmit }) {
   return (
     <form onSubmit={handleSubmit} className="UserInput">
       <input type="text" ref={textInput} webkit-speech />
-      <input type="submit" value="Send" />
+      {/* <input type="submit" value="Send" /> */}
     </form>
   )
 }

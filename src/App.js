@@ -1,5 +1,6 @@
 import React from 'react'
 import './App.css'
+import TimeAgo from 'react-timeago'
 
 import Header from './components/Header'
 import Content from './components/Content'
@@ -143,6 +144,9 @@ class App extends React.Component {
     const listItems = this.state.messages.map((obj) => (
       <Message from={obj.from} time={obj.time}>
         {obj.text}
+        {/* <div className="time">
+          <TimeAgo date={obj.time} />
+        </div> */}
       </Message>
     ))
 
@@ -154,9 +158,7 @@ class App extends React.Component {
           <Header />
           <Content>{listItems}</Content>
           <div className="StickyFooter">
-            <div className="StickyFooterContent">
-              <UserInput onSubmit={this.handleProcessMessage} />
-            </div>
+            <UserInput onSubmit={this.handleProcessMessage} />
           </div>
         </div>
       </>
