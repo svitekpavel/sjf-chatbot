@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 8px 0;
+  background-color: rgba(0, 174, 224, 0.16);
+  color: #171717;
+  font-family: 'IBM Plex Sans';
+  font-size: 23px;
+  line-height: 32px;
+  text-transform: uppercase;
+}

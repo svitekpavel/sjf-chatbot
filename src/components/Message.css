@@ -1,3 +1,57 @@
 /* CSS styles for Message component */
-.Message {
+.message {
+  /* color: blue; */
+  margin-bottom: 16px;
+}
+
+.right {
+  text-align: right;
+}
+
+.bot::before {
+  content: ' ';
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  background: URL('/bot-small.svg');
+  vertical-align: top;
+  margin-right: 8px;
+}
+
+.box {
+  display: inline-block;
+  padding: 24px;
+  /* background-color: #ddd; */
+  /* border: 1px solid #aaa; */
+  border-radius: 2px;
+  min-width: 150px;
+  max-width: 250px;
+}
+
+.box-left {
+  border-radius: 0 20px 20px 20px;
+  background-color: rgba(0, 174, 224, 0.16);
+  /* box-shadow: 0 2px 4px 0 #b7b7b7; */
+  color: #171717;
+  font-family: 'IBM Plex Sans';
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.box-right {
+  border-radius: 20px 0 20px 20px;
+  background-color: #00aee0;
+  color: #171717;
+  font-family: 'IBM Plex Sans';
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.time {
+  margin-top: 16px;
+  color: #04294f;
+  font-family: 'IBM Plex Sans';
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 17px;
 }
